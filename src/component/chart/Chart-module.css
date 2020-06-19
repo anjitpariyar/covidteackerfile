@@ -1,0 +1,18 @@
+
+
+.contaier{
+     margin-bottom: 2em;
+}
+.chartjs-render-monitor{
+     box-shadow: rgba(0, 0, 0, 0.38) 8px 8px 8px, rgba(255, 255, 255, 0.02) -6px -6px 8px;
+     transform: scale(0.9);
+     padding: 2em;
+     transform-origin: left top 0px;
+     border-radius: 12px;
+}
+
+@media (max-width:600px){
+     .chartjs-render-monitor{
+          padding: 1em;
+     }
+}
